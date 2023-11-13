@@ -1,0 +1,16 @@
+package prog.unidad03.seleccion;
+
+public class CalculadoraSalarioApp {
+  
+  // Creamos tres variables constantes para almacenar el salario por hora trabajada, 
+  // el salario por hora extra trabajada y el horario de una jornada normal
+  public static final double SALARIO_HORA = 16;
+  public static final double SALARIO_HORA_EXTRA = 20;
+  public static final double HORARIO_NORMAL = 40;
+
+  public static void main(String[] args) {
+
+    
+  }
+
+}

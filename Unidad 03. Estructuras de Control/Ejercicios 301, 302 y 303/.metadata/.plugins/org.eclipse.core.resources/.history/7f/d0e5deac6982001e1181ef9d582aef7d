@@ -1,0 +1,10 @@
+package prog.unidad03.seleccion;
+
+public class ClasificaTriangulosApp {
+
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+
+  }
+
+}
