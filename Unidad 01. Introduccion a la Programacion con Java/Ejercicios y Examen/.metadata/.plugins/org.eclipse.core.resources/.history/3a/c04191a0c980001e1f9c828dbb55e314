@@ -1,0 +1,25 @@
+package prog.unidad01;
+
+public class SalarioBaseMasComisiones {
+  
+  // Creamos una variable constante para almacenar la comision
+  public static final double COMISION = 10;
+
+  public static void main(String[] args) {
+
+    /* 15. Un vendedor cobra un salario base y además una comisión del 10% de lo que
+     * venda. Haz un programa que calcule lo que ganará el vendedor un mes
+     * que ha realizado tres ventas.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CÁLCULO DEL SALARIO BASE MÁS COMISIONES");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    
+    
+    sc.close();
+  }
+
+}

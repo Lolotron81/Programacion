@@ -1,0 +1,22 @@
+package prog.unidad01;
+
+public class AreaTriangulo {
+
+  public static void main(String[] args) {
+ 
+    /* 9. Escribe un programa que calcule el área de un triángulo a partir
+     * de los datos aportados por el usuario mediante teclado.
+     * Área triángulo = (base x altura) / 2.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CÁLCULO DEL ÁREA DE UN TRIÁNGULO");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    
+    
+    sc.close();
+  }
+
+}

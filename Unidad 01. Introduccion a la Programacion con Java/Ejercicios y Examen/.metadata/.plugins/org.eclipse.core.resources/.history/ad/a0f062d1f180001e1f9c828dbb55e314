@@ -1,0 +1,21 @@
+package prog.unidad01;
+
+public class Digitos {
+
+  public static void main(String[] args) {
+  
+    /* 30. Se requiere una aplicación que solicite un número por teclado e indique si NO tiene dos dígitos (true) 
+     * o SI tiene dos dígitos (false).
+    */
+    
+    // Nombre del Programa
+    System.out.println("DÍGITOS DE UN NÚMERO");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    
+    
+    sc.close();
+  }
+
+}

@@ -1,0 +1,31 @@
+package prog.unidad01;
+
+public class AreaTerrenoIrregular {
+
+  public static void main(String[] args) {
+
+    /* 20. Una empresa constructora vende terrenos con la forma de la figura. Realiza un programa 
+     * que calcule el área de un terreno a partir de las medidas de su perímetro.
+     * La figura tiene esta forma:
+     * |\
+     * | \
+     * |  |         
+     * |__|
+     * Para poder calcular el área de un terreno irregular deberemos partir este en figuras más pequeñas a las cuales podamos calcular
+     * el área de manera más eficaz y al final sumar todas las áreas obtenidas. En el caso de la figura que nos ocupa sabemos que el lado 
+     * horizontal más largo se llama A, la base B y el lado horizontal más corto C. Podemos presuponer que en la parte inferior de la figura nos
+     * queda un rectángulo cuya base es B y los lados son C y en la parte superior nos queda un triángulo cuya base es B y la altura
+     * es la resta de A menos C.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CÁLCULO DEL ÁREA DE UN TERRENO IRREGULAR");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    
+    
+    sc.close();
+  }
+
+}

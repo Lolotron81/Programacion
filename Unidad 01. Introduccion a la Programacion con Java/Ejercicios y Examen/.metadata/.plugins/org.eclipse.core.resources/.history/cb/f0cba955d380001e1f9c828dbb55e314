@@ -1,0 +1,15 @@
+package prog.unidad01;
+
+public class NotaFinalAsignaturaProgramacion {
+
+  public static void main(String[] args) {
+
+    /* 18. Se desea hacer un programa que calcule la nota de una evaluación de un alumno/a de Programación y Computación sabiendo que 
+     * la nota se compone de las siguientes partes: 
+     * 1. 55% es el promedio de las calificaciones de las tres unidades realizadas durante el trimestre. 
+     * 2. 30% es la calificación obtenida en el examen final del trimestre. 
+     * 3. 15% es la calificación obtenida en un trabajo expuesto en clase.
+    */
+  }
+
+}

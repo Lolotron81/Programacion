@@ -1,0 +1,30 @@
+package prog.unidad01;
+
+public class ConversorMegaBytesKiloBytes {
+
+  // Creamos una variable constante para almacenar el valor de 1 MegaByte expresado en KiloBytes
+  public static final double UN_MEGABYTE_EN_KILOBYTES = 1024;
+  
+  public static void main(String[] args) {
+
+    /* 13. Realiza un conversor que convierta cualquier cantidad
+     * de MegaBytes a KiloBytes.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CONVERSOR DE MEGABYTES A KILOBYTES");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    // Pedimos al usuario la cantidad de MegaBytes que quiere convertir en KiloBytes y creamos una variable para almacenar dicho valor
+    System.out.print("Introduzca la cantidad de MegaBytes que quiere convertir en KiloBytes: ");
+    double megabytes = Double.parseDouble(sc.nextLine());
+    
+    // Creamos una variable para almacenar el valor de la conversión de megabytes a kilobytes
+    double kilobytes = megabytes * UN_MEGABYTE_EN_KILOBYTES;
+    System.out.println(megabytes + " MegaBytes son " + kilobytes + " KiloBytes");
+    
+    sc.close();
+  }
+
+}

@@ -1,0 +1,23 @@
+package prog.unidad01;
+
+public class VolumenCono {
+
+  public static void main(String[] args) {
+
+    /* 12. Escribe un programa que calcule el volumen de un cono.
+     * Volumen Cono = (PI x Radio al cuadrado x altura) / 3.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CÁLCULO DEL VOLUMEN DE UN CONO");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    // Pedimos al usuario el radio y la altura del cono y creamos dos variables para almacenar ambos datos
+    System.out.print("Introduzca el radio del cono: ");
+    double radioCono = Douoble.parseDouble(sc.nextLine());
+    
+    sc.close();
+  }
+
+}

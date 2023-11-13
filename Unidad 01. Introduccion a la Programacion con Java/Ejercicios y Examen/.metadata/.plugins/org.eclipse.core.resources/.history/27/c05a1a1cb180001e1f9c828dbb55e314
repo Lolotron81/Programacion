@@ -1,0 +1,33 @@
+package prog.unidad01;
+
+public class OperacionesNumerosEnterosPorTeclado {
+
+  public static void main(String[] args) {
+
+    /* 5. Realiza un programa que pida dos números enteros por teclado.
+     * A continuación debe mostrar su suma, su diferencia, producto, división
+     * y módulo.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CÁLCULO DE OPERACIONES SOBRE DOS NÚMEROS ENTEROS INTRODUCIDOS POR TECLADO");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    // Pedimos al usuario que introduzca dos números enteros y creamos dos variables donde almacenaremos dichos valores
+    System.out.print("Introduzca el primer número entero: ");
+    int primerEntero = Integer.parseInt(sc.nextLine());
+    System.out.print("Introduzca el segundo número entero: ");
+    int segundoEntero = Integer.parseInt(sc.nextLine());
+    // Creamos las variables donde ir almacenando las distintas operaciones y las vamos mostrando en pantalla
+    int suma = primerEntero + segundoEntero;
+    System.out.println(primerEntero + " + " + segundoEntero + " = " + suma);
+    int diferencia = primerEntero - segundoEntero;
+    System.out.println(primerEntero + " - " + segundoEntero + " = " + diferencia);
+    int producto = primerEntero * segundoEntero;
+    System.out.println(primerEntero + " * " + segundoEntero + " = " + producto);
+    
+    sc.close();
+  }
+
+}

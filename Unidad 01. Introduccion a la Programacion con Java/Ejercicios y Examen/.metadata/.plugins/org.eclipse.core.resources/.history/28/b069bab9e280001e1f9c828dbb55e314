@@ -1,0 +1,16 @@
+package prog.unidad01;
+
+public class PotenciaCircuitoElectrico {
+
+  public static void main(String[] args) {
+
+    /* 23. Considerando un circuito eléctrico que tiene una resistencia de 4 ohmios, se desea calcular la potencia que consume el mismo.
+     * Para calcular la potencia de un circuito eléctrico necesitamos conocer el voltaje y la intensidad de dicho circuito. El voltaje podemos
+     * preguntarlo pero para calcular la intensidad usaremos la fórmula de I = V / R siendo R la resistencia. Para calcular la potencia usaremos 
+     * la fórmula de la potencia es P = V * I siendo el voltaje Voltios y la intensidad Amperios.
+    */
+    
+    
+  }
+
+}

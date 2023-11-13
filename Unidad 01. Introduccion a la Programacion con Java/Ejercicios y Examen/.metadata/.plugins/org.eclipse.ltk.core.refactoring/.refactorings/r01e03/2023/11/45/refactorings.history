@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;totaFactura&apos; in &apos;prog.unidad01.FacturaTotalPartiendoBaseImponible.main(...)&apos; to &apos;totalFactura&apos;&#x0D;&#x0A;- Original project: &apos;r01e03&apos;&#x0D;&#x0A;- Original element: &apos;prog.unidad01.FacturaTotalPartiendoBaseImponible.main(String[]).totaFactura&apos;&#x0D;&#x0A;- Renamed element: &apos;totaFactura&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;totaFactura&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;prog.unidad01{FacturaTotalPartiendoBaseImponible.java[FacturaTotalPartiendoBaseImponible~main~\[QString;@totaFactura!1058!1098!1065!1075!D!0!false" name="totalFactura" references="true" stamp="1699719411786" version="1.0"/>
+</session>

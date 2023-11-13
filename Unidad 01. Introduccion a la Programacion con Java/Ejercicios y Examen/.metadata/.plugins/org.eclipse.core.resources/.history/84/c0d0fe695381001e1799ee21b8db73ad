@@ -1,0 +1,19 @@
+package prog.unidad01;
+
+public class CalculoVertical {
+
+  public static void main(String[] args) {
+
+    // Nombre del Programa
+    System.out.println("CÁLCULO DE LANZAMIENTO VERTICAL");
+    
+    /*
+     * 1.- Crea una aplicación, llamada CalculoVertical, que calcula la altura máxima que alcanzará un objeto lanzado hacia arriba 
+     * asi como el tiempo que emplea en alcanzar dicha altura.Para ello deberá solicitar por pantalla la velocidad a la que se lanza 
+     * el objeto (velocidad inicial) y mostrar por pantalla tanto la altura máxima alcanzada como el tiempo que tarda en alcanzar dicha altura. 
+     * Para adecuarlo a público anglosajón se desea que se muestre la altura máxima tanto en metros como en pies. En el caso de los pies la 
+     * cantidad se debe mostrar de forma aproximada sin decimales.
+     */
+  }
+
+}

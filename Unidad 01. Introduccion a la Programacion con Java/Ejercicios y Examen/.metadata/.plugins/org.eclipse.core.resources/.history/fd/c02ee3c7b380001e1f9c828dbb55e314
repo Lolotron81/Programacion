@@ -1,0 +1,14 @@
+package prog.unidad01;
+
+public class ConversorEurosPesetas {
+
+  public static void main(String[] args) {
+
+    /* 7. Realiza un programa que haga justo lo opuesto del anterior, leyendo
+     * la cantidad de euros por teclado.
+    */
+    
+    
+  }
+
+}

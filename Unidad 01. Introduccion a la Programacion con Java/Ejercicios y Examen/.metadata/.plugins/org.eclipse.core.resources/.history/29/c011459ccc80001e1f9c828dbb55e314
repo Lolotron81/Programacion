@@ -1,0 +1,42 @@
+package prog.unidad01;
+
+public class SalarioBaseMasComisiones {
+  
+  // Creamos una variable constante para almacenar la comision
+  public static final double COMISION = 10;
+
+  public static void main(String[] args) {
+
+    /* 15. Un vendedor cobra un salario base y además una comisión del 10% de lo que
+     * venda. Haz un programa que calcule lo que ganará el vendedor un mes
+     * que ha realizado tres ventas.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CÁLCULO DEL SALARIO BASE MÁS COMISIONES");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    // Pedimos al usuario el salario base y lo almacenamos en una variable
+    System.out.print("¿Cuál es el salario base del trabajador?: ");
+    double salarioBase = Double.parseDouble(sc.nextLine());
+    // Pedimos al usuario el valor de cada venta y creamos tres variables para almacenar las cantidades
+    System.out.print("¿Cuál es la cuantía de la primera venta?: ");
+    double primeraVenta = Double.parseDouble(sc.nextLine());
+    System.out.print("¿Cuál es la cuantía de la segunda venta?: ");
+    double segundaVenta = Double.parseDouble(sc.nextLine());
+    System.out.print("¿Cuál es la cuantía de la tercera venta?: ");
+    double terceraVenta = Double.parseDouble(sc.nextLine());
+    // Creamos una variable para almacenar el salario total sumando el salario base y las tres comisiones y lo mostramos por pantalla
+    double salarioCompleto = salarioBase + (((primeraVenta + segundaVenta + terceraVenta) * 30) / 100);
+    // Mostramos por pantalla toda la información que hemos obtenido y aprovechamos para calcular la comisión
+    System.out.println("El trabajador ha realizado este mes tres ventas. La primera ha sido de " + primeraVenta + " euros de la cual se lleva " 
+        + ((primeraVenta * 10) / 100) + " euro de comisión. La segunda ha sido de " + segundaVenta + " euros de la cual se lleva " 
+        + ((segundaVenta * 10) / 100) + " euros de comisión. La tercera venta ha sido de " + terceraVenta + " euros de la cual se lleva " 
+        + ((terceraVenta * 10) / 100) + " euros de comisión. Por lo tanto, y partiendo del salario base que es " + salarioBase + " euros, este mes " 
+        + "el trabajador percibirá un salario de " + salarioCompleto + " euros.");
+    
+    sc.close();
+  }
+
+}

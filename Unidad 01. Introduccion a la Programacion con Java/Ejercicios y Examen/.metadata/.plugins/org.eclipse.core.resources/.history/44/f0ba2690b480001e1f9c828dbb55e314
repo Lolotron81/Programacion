@@ -1,0 +1,22 @@
+package r01e08;
+
+public class AreaRectangulo {
+
+  public static void main(String[] args) {
+
+    /* 8. Escribe un programa que calcule el área de un rectángulo
+     * a partir de los datos aportados por el usuario mediante teclado.
+     * Área rectángulo = base x altura.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CÁLCULO DEL ÁREA DE UN RECTÁNGULO");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    
+    
+    sc.close();
+  }
+
+}

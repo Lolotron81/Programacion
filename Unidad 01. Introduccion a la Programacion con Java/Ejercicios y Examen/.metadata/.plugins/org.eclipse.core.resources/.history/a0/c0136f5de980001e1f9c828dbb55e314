@@ -1,0 +1,21 @@
+package prog.unidad01;
+
+public class EdadParaConducir {
+
+  public static void main(String[] args) {
+ 
+    /* 27. Se requiere una aplicación que solicite la edad de una persona e indique si puede (true) o no (false) 
+     * obtener el permiso de conducir.
+    */
+    
+    // Nombre del Programa
+    System.out.println("EDAD PARA CONDUCIR");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    
+    
+    sc.close();
+  }
+
+}

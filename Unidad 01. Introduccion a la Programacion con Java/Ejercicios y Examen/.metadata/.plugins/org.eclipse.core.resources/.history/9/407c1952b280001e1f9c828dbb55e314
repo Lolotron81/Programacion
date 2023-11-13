@@ -1,0 +1,13 @@
+package prog.unidad01;
+
+public class ConversorPesetasEuros {
+  
+  // Creamos una variable constante para almacenar el valor de una peseta en euros
+  public static final double VALOR_PESETA_EN_EUROS = 0.0060;
+
+  public static void main(String[] args) {
+
+    
+  }
+
+}

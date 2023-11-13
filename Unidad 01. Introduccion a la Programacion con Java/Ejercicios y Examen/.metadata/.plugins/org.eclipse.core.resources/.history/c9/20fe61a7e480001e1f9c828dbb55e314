@@ -1,0 +1,21 @@
+package prog.unidad01;
+
+public class CosteLlamada {
+
+  public static void main(String[] args) {
+
+    /* 24. Se requiere un programa que calcule el precio de una llamada telefónica a partir de su duración, el coste de establecimiento 
+     * de llamada y el coste por minuto.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CÁLCULO DEL COSTE DE UNA LLAMADA");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    
+    
+    sc.close();
+  }
+
+}

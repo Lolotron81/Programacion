@@ -1,0 +1,14 @@
+package prog.unidad01;
+
+public class MediaTresCalificaciones {
+
+  public static void main(String[] args) {
+
+    /* 26. Crea un programa que solicite las calificaciones de las tres evaluaciones de un curso y muestre el mensaje indicando si
+     * el alumno ha aprobado (true) o no (false). La nota final de curso es la media de las calificaciones de las tres evaluaciones.
+    */
+    
+    
+  }
+
+}

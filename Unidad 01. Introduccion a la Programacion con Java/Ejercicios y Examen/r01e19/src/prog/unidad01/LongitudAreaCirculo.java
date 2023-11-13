@@ -1,0 +1,33 @@
+package prog.unidad01;
+
+public class LongitudAreaCirculo {
+  
+  // Creamos una variable constante para almacenar el valor de PI
+  public static final double PI = 3.14;
+
+  public static void main(String[] args) {
+
+    /* 19. Se necesita un programa que, a partir del radio de una circunferencia, calcule su longitud y el área del círculo que encierra.
+     * longitud circulo = 2 x PI x radio
+     * area circulo = PI x radio x radio
+    */
+    
+    // Nombre del Programa
+    System.out.println("CÁLCULO DEL ÁREA Y LA LONGITUD DE UN CÍRCULO");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    // Solicitamos al usuario el radio de la circunferencia
+    System.out.print("Introduzca el radio de la circunferencia para poder calcular el área y la longitud del círculo que contiene: ");
+    double radioCircunferencia = Double.parseDouble(sc.nextLine());
+    
+    // Creamos una variable para el área y otra para la longitud y calculamos y almacenamos sus valores y las mostramos por pantalla
+    double longitudCirculo = (2 * PI * radioCircunferencia);
+    System.out.println("La longitud de un círculo contenido en una circunferencia cuyo radio es " + radioCircunferencia + " vale " + longitudCirculo + " cm");
+    double areaCirculo = (PI * radioCircunferencia * radioCircunferencia);
+    System.out.println("El área de un círculo contenido en una circunferencia cuyo radio es " + radioCircunferencia + " vale " + areaCirculo + " cm^2");
+    
+    sc.close();
+  }
+
+}

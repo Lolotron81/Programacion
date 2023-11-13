@@ -1,0 +1,29 @@
+package prog.unidad01;
+
+public class NotaFinalAsignaturaProgramacion {
+  
+  // Creamos tres variables constantes para almacenar los porcentajes de los tres criterios para la nota final
+  public static final double PORCENTAJE_TEMARIO = 0.55;
+  public static final double PORCENTAJE_EXAMEN_FINAL = 0.30;
+  public static final double PORCENTAJE_TRABAJO = 0.15;
+
+  public static void main(String[] args) {
+
+    /* 18. Se desea hacer un programa que calcule la nota de una evaluación de un alumno/a de Programación y Computación sabiendo que 
+     * la nota se compone de las siguientes partes: 
+     * 1. 55% es el promedio de las calificaciones de las tres unidades realizadas durante el trimestre. 
+     * 2. 30% es la calificación obtenida en el examen final del trimestre. 
+     * 3. 15% es la calificación obtenida en un trabajo expuesto en clase.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CÁLCULO DE LA NOTA DE PROGRAMACIÓN BASADA EN CRITERIOS");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    // Pedimos al usuario las tres notas que ha obtenido en las tres unidades del trimestre y las almacenamos en tres variables
+    System.out.print("¿Qué nota ha obtenido el alumno en la primera unidad del trimestre?: ");
+    double notaPrimeraUnidad = Double.parseDouble(sc.nextLine());
+  }
+
+}

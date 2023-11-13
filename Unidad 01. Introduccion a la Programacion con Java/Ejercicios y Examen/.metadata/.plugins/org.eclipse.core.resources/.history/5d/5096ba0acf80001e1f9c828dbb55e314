@@ -1,0 +1,29 @@
+package prog.unidad01;
+
+public class PorcentajeInversionEmpresa {
+
+  public static void main(String[] args) {
+
+    /* 16. Tres personas invierten su dinero para formar una empresa. Cada una de ellas invierte una cantidad distinta. 
+     * Calcula qué porcentaje del total invierte cada uno.
+    */
+    
+    // Nombre del Programa
+    System.out.println("PORCENTAJE DE INVERSIÓN PARA MONTAR UNA EMPRESA");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    // Pedimos al usuario las cantidades que han invertido cada una de las personas y creamos tres variables para almacenar los valores
+    System.out.print("¿Cuánto dinero ha depositado el primer inversor?: ");
+    double PrimerImporte = Double.parseDouble(sc.nextLine());
+    System.out.print("¿Cuánto dinero ha depositado el segundo inversor?: ");
+    double SegundoImporte = Double.parseDouble(sc.nextLine());
+    System.out.print("¿Cuánto dinero ha depositado el tercer inversor?: ");
+    double TercerImporte = Double.parseDouble(sc.nextLine());
+    
+    // Creamos una variable para almacenar el importe total invertido
+    double InversionTotal = (primerImporte + segundoImporte + tercerImporte);
+    sc.close();
+  }
+
+}

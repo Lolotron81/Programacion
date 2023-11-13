@@ -1,0 +1,10 @@
+package r01e08;
+
+public class AreaRectangulo {
+
+  public static void main(String[] args) {
+    // TODO Auto-generated method stub
+
+  }
+
+}

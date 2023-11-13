@@ -1,0 +1,11 @@
+package prog.unidad01;
+
+public class EnteroParImpar {
+
+  public static void main(String[] args) {
+
+    /* 25. Hacer un programa que solicite un numero entero y diga por pantalla si el numero es par (true) o no (false).
+    */
+  }
+
+}

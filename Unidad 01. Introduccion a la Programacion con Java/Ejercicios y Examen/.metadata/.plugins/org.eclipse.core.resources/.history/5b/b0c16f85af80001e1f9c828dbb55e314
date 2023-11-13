@@ -1,0 +1,23 @@
+package prog.unidad01;
+
+public class EnteroParImpar {
+
+  public static void main(String[] args) {
+
+    /* 4. Escribe un programa que tenga una variable numero de tipo entero
+     * con un valor cualquiera y diga por pantalla si el valor es par 
+     * (true) o no (false).
+    */
+    
+    // Nombre del Programa
+    System.out.println("ENTERO PAR O IMPAR");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    // Pedimos al usuario un número entero y lo almacenamos en una variable
+    
+    
+    sc.close();
+  }
+
+}

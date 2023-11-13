@@ -1,0 +1,23 @@
+package prog.unidad01;
+
+public class FacturaTotalPartiendoBaseImponible {
+
+  public static void main(String[] args) {
+
+    /* 3. Escribe un programa que calcule el total de una factura a partir
+     * de la bae imponible (precio sin IVA). La base imponible estará almacenada
+     * en una variable llamada base y el IVA, que será del 21%, debe ir en una
+     * constante.
+     */
+    
+    // Nombre del Programa
+    System.out.println("CÁLCULO DEL VALOR DE UNA FACTURA PARTIENDO DE LA BASE IMPONIBLE");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    
+    
+    sc.close();
+  }
+
+}

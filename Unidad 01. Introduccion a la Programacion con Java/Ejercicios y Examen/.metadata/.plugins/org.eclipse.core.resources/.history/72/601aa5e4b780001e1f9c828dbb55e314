@@ -1,0 +1,21 @@
+package prog.unidad01;
+
+public class CalculoFacturaPidiendoIvaBase {
+
+  public static void main(String[] args) {
+
+    /* 10. Escribe un programa que calcule el total de una factura a partir
+     * de la base imponible y el iva leidos desde teclado.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CÁLCULO DE FACTURA PIDIENDO BASE IMPONIBLE E IVA");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    
+    
+    sc.close();
+  }
+
+}

@@ -1,0 +1,31 @@
+package prog.unidad01;
+
+public class NotaMediaConociendoPrimerExamen {
+
+  public static void main(String[] args) {
+
+    /* 14. Realiza un programa que calcule la nota que debes sacar en el segundo 
+     * examen para obtener la media deseada, sabiendo la nota que ya tienes
+     * en el primer examen.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CÁLCULO DE LA NOTA MEDIA DE DOS EXÁMENES");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    // Pedimos al usuario la nota que desea obtener y la nota del primer examen y creamos dos variables para almacenar dichos valores
+    System.out.print("¿Qué nota media desea obtener?: ");
+    double notaMedia = Double.parseDouble(sc.nextLine());
+    System.out.print("¿Qué nota obtuvo en el primer examen?: ");
+    double notaPrimerExamen = Double.parseDouble(sc.nextLine());
+    
+    // Creamos una variable para almacenar la nota del segundo examen y lo mostramos por pantalla
+    double notaSegundoExamen = (notaMedia * 2) - notaPrimerExamen;
+    System.out.println("En el primer examen ha obtenido un " + notaPrimerExamen + " y quiere obtener una nota media de " 
+        + notaMedia + " por lo que en el segundo examen deberá obtener mínimo una nota de " + notaSegundoExamen);
+    
+    sc.close();
+  }
+
+}

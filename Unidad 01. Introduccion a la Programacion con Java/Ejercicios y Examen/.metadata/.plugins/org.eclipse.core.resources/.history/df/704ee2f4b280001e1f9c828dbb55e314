@@ -1,0 +1,29 @@
+package prog.unidad01;
+
+public class ConversorPesetasEuros {
+  
+  // Creamos una variable constante para almacenar el valor de una peseta en euros
+  public static final double VALOR_PESETA_EN_EUROS = 0.0060;
+
+  public static void main(String[] args) {
+
+    /* 6. Realiza un programa que haga la conversión de pesetas a euros
+     * leyendo la cantidad de pesetas desde teclado.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CONVERSOR DE PESETAS A EUROS");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    // Pedimos al usuario la cantidad de pesetas que vamos a convertir a euros y creamos una variable donde almacenar el valor
+    System.out.print("Introduzca la cantidad de pesetas que quiere convertir en euros: ");
+    double pesetas = Double.parseDouble(sc.nextLine());
+    // Creamos una variable donde almacenaremos el cambio de pesetas a euros y mostraremos dicho valor por pantalla
+    double euros = pesetas * VALOR_PESETA_EN_EUROS;
+    System.out.println(pesetas + " pesetas con " + euros + " euros");
+    
+    sc.close();
+  }
+
+}

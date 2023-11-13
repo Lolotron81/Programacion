@@ -1,0 +1,17 @@
+package prog.unidad01;
+
+public class OperacionesConVariablesEnteras {
+
+	public static void main(String[] args) {
+
+	   /*
+     * 1. Crea un programa en el que se declaren dos variables enteras, valor1 y valor2, 
+     * inicializándolas a los valores 256 y 398 respectivamente. Una vez hecho esto
+     * muestra por pantalla los valores de las variables, su suma, su diferencia, producto,
+     * cociente y módulo.
+     */
+	  
+	  System.out.println("OPERACIONES CON NÚMEROS ENTEROS");
+	}
+
+}

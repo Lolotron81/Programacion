@@ -1,0 +1,22 @@
+package prog.unidad01;
+
+public class OperacionesNumerosEnterosPorTeclado {
+
+  public static void main(String[] args) {
+
+    /* 5. Realiza un programa que pida dos números enteros por teclado.
+     * A continuación debe mostrar su suma, su diferencia, producto, división
+     * y módulo.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CÁLCULO DE OPERACIONES SOBRE DOS NÚMEROS ENTEROS INTRODUCIDOS POR TECLADO");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    
+    
+    sc.close();
+  }
+
+}

@@ -1,0 +1,21 @@
+package prog.unidad01;
+
+public class ConversorMegaBytesKiloBytes {
+
+  public static void main(String[] args) {
+
+    /* 13. Realiza un conversor que convierta cualquier cantidad
+     * de MegaBytes a KiloBytes.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CONVERSOR DE MEGABYTES A KILOBYTES");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    
+    
+    sc.close();
+  }
+
+}

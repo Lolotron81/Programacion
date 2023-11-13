@@ -1,0 +1,43 @@
+package prog.unidad01;
+
+public class LlenarPiscina {
+
+  public static void main(String[] args) {
+
+    /* 22. Realiza un programa que ayude a calcular el importe a cobrar por el llenado de una piscina, sabiendo las medidas de la misma 
+     * y el precio del litro de agua. (NOTA: Considérese que la piscina tiene todo el fondo al mismo nivel.
+     * Para calcular el volumen de llenado de una piscina hay que calcular el metro cúbico de agua y para ello multiplicaremos 
+     * largo x ancho x alto de la piscina, o sea, los dos lados diferentes si tenemos en cuenta que la piscina es un rectángulo y la profundidad.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CÁLCULO DE CANTIDAD DE AGUA PARA LLENAR UNA PISCINA");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    // Pedimos al usuario el valor de un litro de agua
+    System.out.print("¿Cuánto cuesta un litro de agua?: ");
+    double precioLitroAgua = Double.parseDouble(sc.nextLine());
+    
+    // Pedimos al usuario los lados mayor y menor y la profundidad de la piscina para poder calcular el volumen de llenado
+    System.out.print("Introduzca la longitud de la piscina: ");
+    double longitudPiscina = Double.parseDouble(sc.nextLine());
+    System.out.print("Introduzca la anchura de la piscina: ");
+    double anchuraPiscina = Double.parseDouble(sc.nextLine());
+    System.out.print("Introduzca la profundidad de la piscina: ");
+    double profundidadPiscina = Double.parseDouble(sc.nextLine());
+    
+    // Creamos una variable para calcular y almacenar el volumen
+    double volumenPiscina = longitudPiscina * anchuraPiscina * profundidadPiscina;
+    double importeTotalPorLlenarLaPiscina = volumenPiscina * precioLitroAgua;
+    
+    // Mostramos por pantalla los datos
+    System.out.println("Una pisicna cuya longitud es de " + longitudPiscina + " metros, cuya anchura es de " + anchuraPiscina 
+        + " metros y cuya profundidad es de " + profundidadPiscina + " metros tiene un volumen total de " + volumenPiscina + " metros cúbicos "
+        + " y tendrá un coste de llenado de " + importeTotalPorLlenarLaPiscina 
+        + " euros ya que el litro de agua está a " + precioLitroAgua + " euros.");
+    
+    sc.close();
+  }
+
+}

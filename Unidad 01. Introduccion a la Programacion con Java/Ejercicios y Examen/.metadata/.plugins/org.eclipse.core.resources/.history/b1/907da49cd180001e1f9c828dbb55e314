@@ -1,0 +1,22 @@
+package prog.unidad01;
+
+public class PresupuestoHospital {
+
+  public static void main(String[] args) {
+
+    /* 17. En un hospital existen tres departamentos: Ginecología, Pediatría y Traumatología. El presupuesto anual del hospital 
+     * se reparte entre los tres departamentos de forma que Ginecología recibe el 40%, Traumatología el 35% y Pediatría el 25%. 
+     * Realiza un programa que calcule el presupuesto de cada departamento a partir del presupuesto anual del hospital.
+    */
+    
+    // Nombe del Programa
+    System.out.println("PRESUPUESTO DE UN HOSPITAL");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    
+    
+    sc.close();
+  }
+
+}

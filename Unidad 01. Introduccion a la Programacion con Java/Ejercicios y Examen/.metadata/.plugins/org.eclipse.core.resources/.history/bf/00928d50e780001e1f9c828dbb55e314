@@ -1,0 +1,27 @@
+package prog.unidad01;
+
+public class MediaTresCalificaciones {
+
+  public static void main(String[] args) {
+
+    /* 26. Crea un programa que solicite las calificaciones de las tres evaluaciones de un curso y muestre el mensaje indicando si
+     * el alumno ha aprobado (true) o no (false). La nota final de curso es la media de las calificaciones de las tres evaluaciones.
+    */
+    
+    // Nombre del Programa
+    System.out.println("CALIFICACIÓN ALUMNO");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    // Pedimos al usuario que nos introduzca las notas de las tres evaluaciones y las almacenamos en tres variables
+    System.out.print("Introduzca la nota de la primera evaluación: ");
+    double primeraEvaluacion = Double.parseDouble(sc.nextLine());
+    System.out.print("Introduzca la nota de la segunda evaluación: ");
+    double segundaEvaluacion = Double.parseDouble(sc.nextLine());
+    System.out.print("Introduzca la nota de la tercera evaluación: ");
+    double terceraEvaluacion = Double.parseDouble(sc.nextLine());
+    
+    sc.close();
+  }
+
+}

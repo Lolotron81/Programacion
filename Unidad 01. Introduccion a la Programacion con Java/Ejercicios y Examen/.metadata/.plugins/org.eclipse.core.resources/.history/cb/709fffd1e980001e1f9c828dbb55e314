@@ -1,0 +1,12 @@
+package prog.unidad01;
+
+public class CompararEdades {
+
+  public static void main(String[] args) {
+
+    /* 28. Crea un programa que solicite la edad de tres personas e imprima por pantalla true si la primera es mayor 
+     * que la segunda y la segunda mayor que la tercera. En caso contrario debe imprimir false.
+     */
+  }
+
+}

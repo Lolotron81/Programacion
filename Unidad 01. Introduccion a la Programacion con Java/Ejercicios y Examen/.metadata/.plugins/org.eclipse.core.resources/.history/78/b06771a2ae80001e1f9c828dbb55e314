@@ -1,0 +1,20 @@
+package prog.unidad01;
+
+public class EnteroParImpar {
+
+  public static void main(String[] args) {
+
+    
+    
+    // Nombre del Programa
+    System.out.println("ENTERO PAR O IMPAR");
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    // Pedimos al usuario un número entero y lo almacenamos en una variable
+    
+    
+    sc.close();
+  }
+
+}

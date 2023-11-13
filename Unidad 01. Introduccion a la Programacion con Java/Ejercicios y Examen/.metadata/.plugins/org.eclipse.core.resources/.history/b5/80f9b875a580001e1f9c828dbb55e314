@@ -1,0 +1,36 @@
+package prog.unidad01;
+
+public class OperacionesConVariablesEnteras {
+  
+  public static final int PRIMER_NUMERO_ENTERO = 256;
+  public static final int SEGUNDO_NUMERO_ENTERO = 398;
+
+	public static void main(String[] args) {
+
+	   /*
+     * 1. Crea un programa en el que se declaren dos variables enteras, valor1 y valor2, 
+     * inicializándolas a los valores 256 y 398 respectivamente. Una vez hecho esto
+     * muestra por pantalla los valores de las variables, su suma, su diferencia, producto,
+     * cociente y módulo.
+     */
+	  
+	  // Cabecera del programa
+	  System.out.println("OPERACIONES CON NÚMEROS ENTEROS");
+	  
+	  // Declaramos las variables y las inicializamos. Ésta sería una forma válida de resolver este problema pero de forma más correcta ya que conocemos
+	  // los valores de las variables vamos a crearlas como CONSTANTES.
+//	  int primerNumeroEntero = 256;
+//	  int segundoNumeroEntero = 398;
+	  
+	  // Declaramos variables para almacenar las operaciones y las imprimimos por pantalla.
+	  System.out.println("El primer número entero vale " + PRIMER_NUMERO_ENTERO);
+	  System.out.println("El segundo número entero vale " + SEGUNDO_NUMERO_ENTERO);
+	  int suma = PRIMER_NUMERO_ENTERO + SEGUNDO_NUMERO_ENTERO;
+	  System.out.println("La suma de " + PRIMER_NUMERO_ENTERO + " + " + SEGUNDO_NUMERO_ENTERO + " vale " + suma);
+	  int diferencia = PRIMER_NUMERO_ENTERO - SEGUNDO_NUMERO_ENTERO;
+	  System.out.println("La diferencia entre " + PRIMER_NUMERO_ENTERO + " y " + SEGUNDO_NUMERO_ENTERO + " vale " + diferencia);
+	  int producto = PRIMER_NUMERO_ENTERO * SEGUNDO_NUMERO_ENTERO;
+	  System.out.println("El producto de " + PRIMER_NUMERO_ENTERO + " * " + SEGUNDO_NUMERO_ENTERO + " vale " + producto);
+	}
+
+}
