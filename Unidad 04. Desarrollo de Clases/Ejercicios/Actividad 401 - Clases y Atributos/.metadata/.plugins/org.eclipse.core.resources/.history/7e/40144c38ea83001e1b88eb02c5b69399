@@ -1,0 +1,10 @@
+package prog.unidad04.atributos;
+
+public class Pizza {
+	
+	public String tamañoPizza;
+	public String tipoPizza;
+	public char servidaONo;
+	pubic int pizzasPedidas;
+	public int pizzasServidas;
+}

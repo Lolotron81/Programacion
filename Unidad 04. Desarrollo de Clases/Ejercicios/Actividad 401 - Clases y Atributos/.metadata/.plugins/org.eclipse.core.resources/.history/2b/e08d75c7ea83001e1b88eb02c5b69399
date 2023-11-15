@@ -1,0 +1,17 @@
+package prog.unidad04.atributos;
+
+public class PruebaPizza {
+
+	public static void main(String[] args) {
+
+		// Nombre del Programa
+		System.out.println("PROGRAMA DE MANEJO DE PIZZAS");
+		
+		java.util.Scanner sc = new java.util.Scanner(System.in);
+		
+		// Soliticamos la cantidad de pizzas que se van a servir
+		System.out.print("Introduzca la cantidad de Pizzas a crear (1 ó más): ");
+		int numeroPizzas = Integer.parseInt(sc.nextLine());
+	}
+
+}
