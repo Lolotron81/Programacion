@@ -1,0 +1,14 @@
+
+public class Ejercicio04 {
+
+  public static void main(String[] args) {
+
+    /*
+     * 4.Crea una aplicación que solicite los datos de una persona y cree una 
+     * persona con esos datos e imprima los mismos por pantalla.
+     */
+    
+    
+  }
+
+}

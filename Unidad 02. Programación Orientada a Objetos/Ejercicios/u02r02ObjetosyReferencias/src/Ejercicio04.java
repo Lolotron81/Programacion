@@ -1,0 +1,30 @@
+
+public class Ejercicio04 {
+
+  public static void main(String[] args) {
+
+    /*
+     * 4.Crea una aplicación que solicite los datos de una persona y cree una 
+     * persona con esos datos e imprima los mismos por pantalla.
+     */
+    
+    java.util.Scanner sc = new java.util.Scanner(System.in);
+    
+    // Creamos un objeto de la Clase Persona
+    Persona persona = new Persona();
+    // Vamos pidiendo al usuario los datos
+    System.out.print("¿Qué edad tiene?: ");
+    persona.edad = Integer.parseInt(sc.nextLine());
+    System.out.print("Si tiene hijos, ¿Cuántos?: ");
+    persona.numeroHijos = Integer.parseInt(sc.nextLine());
+    System.out.print("¿Cuál es su peso?: ");
+    persona.peso = Double.parseDouble(sc.nextLine());
+    
+    // Mostramos los datos del objeto
+    System.out.println("Usted tiene " + persona.edad + " años, tiene " + persona.numeroHijos 
+        + " hijos y su peso es " + persona.peso + " kilos.");
+    
+    sc.close();
+  }
+
+}

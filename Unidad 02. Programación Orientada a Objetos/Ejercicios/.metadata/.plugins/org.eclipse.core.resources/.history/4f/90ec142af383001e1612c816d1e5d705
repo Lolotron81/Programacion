@@ -1,0 +1,17 @@
+
+public class Ejercicio03 {
+
+  public static void main(String[] args) {
+
+    /*
+     * 3. Crea una Persona con 33 años, un hijo y un peso de 80,43 kilos.
+     * Crea una nueva variable de tipo Persona y asignale la referencia a la primera. 
+     * Usa esta nueva variable para poner un valor al peso de 79,65 kilogramos. 
+     * Imprime por pantalla la información de las personas referenciadas por ambas variables. 
+     * ¿Qué valores se muestran? ¿Cómo lo justificas?
+     */
+    
+    
+  }
+
+}

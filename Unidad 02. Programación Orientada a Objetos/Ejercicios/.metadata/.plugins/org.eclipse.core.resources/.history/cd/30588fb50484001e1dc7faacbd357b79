@@ -1,0 +1,14 @@
+package prog.unidad02.actividad206;
+
+import java.util.Random;
+import java.util.Scanner;
+import es.iespablopicasso.programacion.bloque02.figuras.Paralelogramo;
+
+public class ParalelogramosApp {
+  
+  public static void main(String[] args) {
+
+    
+  }
+
+}

@@ -1,0 +1,12 @@
+package prog.unidad02.relacion02;
+
+public class Ejercicio1 {
+
+  public static void main(String[] args) {
+
+    Persona persona1 = new Persona();
+    
+    
+  }
+
+}

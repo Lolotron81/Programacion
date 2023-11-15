@@ -1,0 +1,31 @@
+
+public class Ejercicio01 {
+
+  public static void main(String[] args) {
+
+    /*
+     * 1.Crea dos Personas, una con 25 años, sin hijos y con un peso de 75,4 kilos y la otra 
+     * con 65 años, 3 hijos y 65 kilos. Imprime por pantalla los datos de ambas personas.
+     */
+    
+    // Creamos dos objetos de la Clase Persona y creamos las variables donde almacenaremos las
+    // referencias de dichos objetos
+    Persona persona1 = new Persona();
+    Persona persona2 = new Persona();
+    // Usando los atributos del objeto damos valores a los mismo
+    persona1.edad = 25;
+    persona1.numeroHijos = 0;
+    persona1.peso = 75.4;
+    persona2.edad = 65;
+    persona2.numeroHijos = 3;
+    persona2.peso = 65;
+    // Mostramos por pantalla los valores de los atributos de ambos objetos
+    System.out.println("La primera Persona tiene " + persona1.edad + " años, tiene " 
+        + persona1.numeroHijos + " hijos y un peso de " + persona1.peso + " kilos.");
+    System.out.println("La segunda Persona tiene " + persona2.edad + " años, tiene " 
+        + persona2.numeroHijos + " hijos y un peso de " + persona2.peso + " kilos.");
+    
+    
+  }
+
+}

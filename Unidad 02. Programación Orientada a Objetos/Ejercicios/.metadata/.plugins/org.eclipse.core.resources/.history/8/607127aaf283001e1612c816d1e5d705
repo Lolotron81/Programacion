@@ -1,0 +1,15 @@
+
+public class Ejercicio02 {
+
+  public static void main(String[] args) {
+
+    /*
+     * 2. Añade a la actividad anterior una línea que imprime true o false por 
+     * pantalla según las variables apuntan al mismo objeto (true) o no (false). 
+     * ¿Qué valor se muestra? ¿Por qué?
+     */
+    
+    
+  }
+
+}

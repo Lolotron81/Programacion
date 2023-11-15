@@ -1,0 +1,18 @@
+
+public class Ejercicio1 {
+
+  public static void main(String[] args) {
+
+    /*
+     * 1. Crea dos Personas, una con 25 años, sin hijos y con un peso de 75,4 kilos y la otra 
+     * con 65 años, 3 hijos y 65 kilos. Imprime por pantalla los datos de ambas personas.
+     */
+    
+    
+    Persona persona1 = new Persona();
+    Persona persona2 = new Persona();
+    
+    
+  }
+
+}
